@@ -1,0 +1,57 @@
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python cache and logs
+__pycache__/
+*.py[cod]
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# Model checkpoints and weights
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.pb
+
+# TensorBoard logs
+logs/
+events.out.tfevents.*
+
+# Large data folders (especially medical datasets)
+data/
+datasets/
+output/
+preprocessed/
+*.npy
+
+# Results (generated images, samples)
+# *.png
+# assets/
+
+# VS Code and other editor settings
+.vscode/
+.idea/
+
+# Kaggle cache
+/kaggle/working/*
+
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+*.npy
+*.h5
+*.keras
+segmentation_results/*
+!segmentation_results/*.png
+!segmentation_results/*.csv
+!segmentation_results/*.keras
